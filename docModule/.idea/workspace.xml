@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345b5b10-6c7f-4f3e-8c46-15fefeb28017" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/domain/document.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/domain/document.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.14.4" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.2_1/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -17,12 +21,15 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1eP1JmmFqtnZhWJivpFbjoa8Yaj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -33,6 +40,7 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RunManager">
     <configuration name="go build docModule/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -68,6 +76,7 @@
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
@@ -75,29 +84,33 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2" timestamp="1594217201484">
+    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2" timestamp="1594217805658">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1594217201484" />
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1594217423494">
+    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1594217805658" />
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1594242335875">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1594217423494" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1594217423492">
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1594242335875" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1594242335875">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1594217423492" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1594217423492">
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1594242335875" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1594242335874">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1594217423492" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1594217423494">
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1594242335874" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1594242335875">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1594217423494" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1594217216169">
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1594242335875" />
+    <state x="221" y="68" key="SettingsEditor" timestamp="1594242179785">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1594217216169" />
+    <state x="221" y="68" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1594242179785" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1594217831957">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1594217831957" />
   </component>
 </project>
