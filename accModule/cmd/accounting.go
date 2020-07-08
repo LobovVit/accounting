@@ -1,12 +1,10 @@
 package main
 
 import (
-	"../app/domain"
 	"fmt"
+	"github.com/LobovVit/accounting"
 )
 
 func main() {
 	fmt.Printf(domain.Document(domain.NewDocument()))
 }
-
-
