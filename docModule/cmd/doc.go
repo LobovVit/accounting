@@ -1,8 +1,8 @@
 package main
 
 import (
-	"/Users/vitaliy/go/accountingСenter/docModule/app/domain"
 	"fmt"
+	"github.com/LobovVit/accounting/docModule/app/domain"
 )
 
 func main() {
