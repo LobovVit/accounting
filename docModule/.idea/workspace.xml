@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345b5b10-6c7f-4f3e-8c46-15fefeb28017" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../accModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../accModule/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../accModule/app/domain/document.go" beforeDir="false" afterPath="$PROJECT_DIR$/../accModule/app/domain/document.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../accModule/cmd/accounting.go" beforeDir="false" afterPath="$PROJECT_DIR$/../accModule/cmd/accounting.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../accModule/go.mod" beforeDir="false" />
-    </list>
+    <list default="true" id="345b5b10-6c7f-4f3e-8c46-15fefeb28017" name="Default Changelist" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +21,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,7 +51,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1594216672882">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1594216672882" />
   </component>
 </project>
