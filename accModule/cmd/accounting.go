@@ -1,8 +1,8 @@
 package main
 
 import (
+	"../../accModule/app/domain"
 	"fmt"
-	"github.com/LobovVit/accounting/accModule/app/domain"
 )
 
 func main() {
