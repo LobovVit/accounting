@@ -1,8 +1,10 @@
 package domain
 
-import guid "github.com/satori/go.uuid"
+import uuid "github.com/google/uuid"
+
 type document struct {
-	uuid guid
+	uuid uuid.UUID //
+
 }
 
 func NewDocument() *document {
