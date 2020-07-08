@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345b5b10-6c7f-4f3e-8c46-15fefeb28017" name="Default Changelist" comment="1" />
+    <list default="true" id="345b5b10-6c7f-4f3e-8c46-15fefeb28017" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,9 +75,29 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1594216672882">
+    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2" timestamp="1594217201484">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1594216672882" />
+    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1594217201484" />
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1594217423494">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1594217423494" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1594217423492">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1594217423492" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1594217423492">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1594217423492" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1594217423494">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1594217423494" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1594217216169">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1594217216169" />
   </component>
 </project>
