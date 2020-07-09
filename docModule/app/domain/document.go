@@ -111,14 +111,3 @@ type lineAttribute struct {
 	LDateAttr04 time.Time
 	LDateAttr05 time.Time
 }
-
-type events struct {
-	EventUuid      uuid.UUID
-	DocUuid        uuid.UUID
-	ECode          string    //код события
-	EUser          string    //Пользователь
-	EIp            string    //IP пользователя вызвавшего событие
-	ENum           int64     //порядковый номер события
-	EPrevEventUuid uuid.UUID //Гуид предшествующего события
-
-}

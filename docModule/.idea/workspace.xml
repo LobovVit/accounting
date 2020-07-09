@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345b5b10-6c7f-4f3e-8c46-15fefeb28017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/transaction.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/domain/document.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/domain/document.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.14.2_1/libexec" />
   <component name="Git.Settings">
@@ -30,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -84,10 +91,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2" timestamp="1594217805658">
+    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2" timestamp="1594246444453">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1594217805658" />
+    <state x="297" y="23" width="828" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1594246444453" />
     <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1594242335875">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
@@ -108,9 +115,9 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="221" y="68" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1594242179785" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1594217831957">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1594246454163">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1594217831957" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1594246454163" />
   </component>
 </project>
