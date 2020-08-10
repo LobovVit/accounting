@@ -10,9 +10,11 @@ import (
 func main() {
 	m, err := migrate.New(
 		"file:///pg",
-		"postgres://localhost:5433/accounting")
+		"postgres://postgres:postgres@localhost:5433/accounting")
 	if err != nil {
-		fmt.Printf("Err: %v", err)
+		fmt.Printf("Err %v", err)
 	}
 	m.Steps(2)
 }
+
+// "postgres://postgres:postgres@localhost:5433/accounting"

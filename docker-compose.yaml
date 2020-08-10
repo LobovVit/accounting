@@ -6,7 +6,6 @@ services:
      - "8123:8123"
      - "9000:9000"
      - "9009:9009"
-     
      ulimits:
       nproc: 65535
       nofile:
@@ -20,3 +19,29 @@ services:
         - POSTGRES_DB=accounting
       ports:
         - "5433:5432"
+    tarantool1:
+      image: tarantool/tarantool:2.5.1
+      environment:
+        TARANTOOL_REPLICATION: "tarantool1,tarantool2"
+      networks:
+       - mynet
+      ports:
+       - "3301:3301"
+    tarantool2:
+      image: tarantool/tarantool:2.5.1
+      environment:
+        TARANTOOL_REPLICATION: "tarantool1,tarantool2"
+      networks:
+       - mynet
+      ports:
+       - "3302:3301"
+    blueline:
+      build: docker/
+      networks:
+        - mynet
+      depends_on:
+        - tarantool1
+        - tarantool2
+networks:
+  mynet:
+   driver: bridge
