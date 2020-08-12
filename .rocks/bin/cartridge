@@ -1,0 +1,3 @@
+#!/bin/sh
+
+LUAROCKS_SYSCONFDIR='/usr/local/etc/tarantool/rocks' exec '/usr/local/Cellar/tarantool/2.3.2.81/bin/tarantool' -e 'package.path="/Users/vitaliy/go/accountingСenter/.rocks/share/tarantool/?.lua;/Users/vitaliy/go/accountingСenter/.rocks/share/tarantool/?/init.lua;"..package.path;package.cpath="/Users/vitaliy/go/accountingСenter/.rocks/lib/tarantool/?.so;"..package.cpath;local k,l,_=pcall(require,"luarocks.loader") _=k and l.add_context("cartridge-cli","1.8.3-1")' '/Users/vitaliy/go/accountingСenter/.rocks/share/tarantool/rocks/cartridge-cli/1.8.3-1/bin/cartridge' "$@"
